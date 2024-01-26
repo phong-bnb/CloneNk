@@ -4,6 +4,21 @@
     border: 0;
     font-size: 100%;
    }
+   @media only screen and (min-width: 1024px){
+    .style-0 {
+        cursor: auto;
+        min-width: 1346px;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        background: rgb(245, 246, 248) none repeat scroll 0% 0% / auto padding-box border-box;
+        box-sizing: border-box;
+        line-height: 16px;
+        margin: 0px;
+        padding: 0px;
+        border: 0px none rgb(0, 0, 0);
+        vertical-align: baseline;
+    }
+   }
    
 .style-0 {
     cursor: auto;
@@ -154,7 +169,7 @@
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
 }
-
+@media only screen and (min-width: 1024px){
 .style-14 {
     width: 100%;
     box-sizing: border-box;
@@ -164,6 +179,21 @@
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
     background-color: #fe0000;
+
+}
+}
+@media only screen and (max-width: 601px){
+    .style-14 {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        border: 0px none rgb(0, 0, 0);
+        font: 16px / 16px Roboto, sans-serif;
+        vertical-align: baseline;
+        background-color: white;
+    
+    }
 
 }
 
@@ -281,8 +311,23 @@
 @media only screen and (max-width: 600px){
     .style-24 {
         display: block;
+        width: 43px;
+        height: 20px;
+        padding-top: 5px;
+        box-sizing: border-box;
+        margin: 0px;
+        border: 0px none rgb(0, 0, 238);
+        font: 16px / 16px Roboto, sans-serif;
+        vertical-align: baseline;
+        content: url('anhmobie/lgmobie.png');
+    }
+}
+@media only screen and (min-width: 1024px){
+    .style-24 {
+        display: block;
         width: 243px;
         height: 38px;
+        
         padding-top: 5px;
         box-sizing: border-box;
         margin: 0px;
@@ -291,9 +336,6 @@
         vertical-align: baseline;
         content: url('nklogo.png');
     }
-}
-@media only screen and (min-width: 1024px){
-    content: url('anhmobie/lgmobie.png');
 }
 
 
