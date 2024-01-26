@@ -189,7 +189,7 @@
 }
 
 .style-17 {
-    padding: 0px 80px;
+    padding: 0px 0px;
     max-width: 1346px;
     position: absolute;
     z-index: 9;
@@ -2538,7 +2538,7 @@ font-size: 15px;
 }
 
 .style-155 {
-    padding: 0px 80px;
+    padding: 0px 23px;
     max-width: 1346px;
     position: relative;
     box-sizing: border-box;
@@ -3098,6 +3098,7 @@ text-align: center;
     text-align: left;
     box-sizing: border-box;
     margin: 0px;
+    width: 100%;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
@@ -27090,7 +27091,7 @@ text-align: center;
     width: 1243px;
     clear: both;
     box-sizing: border-box;
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
@@ -27138,7 +27139,7 @@ text-align: center;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    z-index: 999; /* Đảm bảo banner hiển thị trên cùng */
+    z-index: 0; /* Đảm bảo banner hiển thị trên cùng */
 }
 
 .style-2459 {
@@ -27238,7 +27239,7 @@ text-align: center;
 }
 
 .style-2468 {
-    padding: 0px 60px;
+    padding: 0px 0px;
     max-width: 1346px;
     display: flex;
     flex-wrap: wrap;
@@ -27532,7 +27533,7 @@ text-align: center;
 }
 
 .style-2490 {
-
+    ;
     opacity: 1;
     object-fit: fill;
     transition: opacity 0.4s ease 0s;
@@ -27586,7 +27587,7 @@ text-align: center;
 }
 
 .style-2494 {
-
+    ;
     opacity: 1;
     object-fit: fill;
     transition: opacity 0.4s ease 0s;
@@ -27640,7 +27641,7 @@ text-align: center;
 }
 
 .style-2498 {
-
+    ;
     opacity: 1;
     object-fit: fill;
     transition: opacity 0.4s ease 0s;
@@ -27694,7 +27695,7 @@ text-align: center;
 }
 
 .style-2502 {
-
+    ;
     opacity: 1;
     object-fit: fill;
     transition: opacity 0.4s ease 0s;
@@ -28075,6 +28076,7 @@ text-align: center;
     transition: opacity 0.4s ease 0s;
     transform-style: preserve-3d;
     width: 100%;
+    height: 376px;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -29407,7 +29409,6 @@ text-align: center;
 .style-2662 {
     height: 185.762px;
     margin-bottom: 5px;
-    border-radius: 8px;
     box-sizing: border-box;
     margin: 0px 0px 5px;
     padding: 0px;
@@ -29419,6 +29420,8 @@ text-align: center;
 .style-2663 {
     text-decoration: none solid rgb(0, 0, 238);
     box-sizing: border-box;
+        border-radius: 8px;
+
     margin: 0px;
     padding: 0px;
     border: 0px none rgb(0, 0, 238);
@@ -29483,7 +29486,7 @@ text-align: center;
 }
 
 .style-2669 {
-    padding: 0px 80px;
+    padding: 0px 15px;
     max-width: 1346px;
     margin-top: 8px;
     box-sizing: border-box;
@@ -29499,11 +29502,9 @@ text-align: center;
 .style-2670 {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
     width: initial;
     box-sizing: border-box;
-    margin: 0px -15px;
+    margin: 0px 0px;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
@@ -38718,8 +38719,23 @@ text-align: center;
 }
 
 .style-3374 {
-    max-width: 210px;
     max-height: 170px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    will-change: transform;
+    opacity: 1;
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 none rgb(0, 0, 238);
+    font: 16px / 16px Roboto, sans-serif;
+    vertical-align: baseline;
+}
+.banertet{
+    max-height: 190px;
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -56377,9 +56393,6 @@ text-align: center;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
-}
-
-.style-4704 {
     transform: translate3d(-3923px, 0px, 0px);
     transition: all 0.25s ease 0s;
     width: 12751px;
@@ -56396,6 +56409,7 @@ text-align: center;
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
 }
+
 
 .style-4705 {
     width: 235.2px;
@@ -77515,7 +77529,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 0 0 0;
+    margin: 0px auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -108430,7 +108444,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 0 0 0;
+    margin: 0px auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
