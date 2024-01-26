@@ -2545,7 +2545,7 @@ font-size: 15px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 86.6px;
+    margin: 0 0 0 0;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -27118,19 +27118,27 @@ text-align: center;
 }
 
 .style-2458 {
-    padding: 0px 0px;
+    /* padding: 0px 0px;
     max-width: 1500px;
     position: fixed;
     left: 47%;
     transform: matrix(1, 0, 0, 1, -600, 0);
     box-sizing: border-box;
-    width: 100%;
+    width: 100%; */
     /* margin-right: auto;
     margin-left: auto; */
-    margin: 0 auto;
+    /* margin: 0 auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
-    vertical-align: baseline;
+    vertical-align: baseline; */
+    /* display: flex; */
+    justify-content: center;
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 999; /* Đảm bảo banner hiển thị trên cùng */
 }
 
 .style-2459 {
@@ -27138,7 +27146,7 @@ text-align: center;
     /* left: -130px; */
     /* top: 42px; */
     box-sizing: border-box;
-    margin: 42px 0;
+    margin: 0px 0;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
@@ -27148,7 +27156,7 @@ text-align: center;
 .style-2460 {
     float: left;
     box-sizing: border-box;
-    margin: 24px 0;
+    margin: 42px 0;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
@@ -27239,7 +27247,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 86.6px;
+    margin: 0 0 0 ;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -29482,7 +29490,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 8px 86.6px 0px;
+    margin: 8px 0 0 0;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -77507,7 +77515,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 86.6px;
+    margin: 0px 0 0 0;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -108422,7 +108430,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 86.6px;
+    margin: 0px 0 0 0;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
