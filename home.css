@@ -189,7 +189,7 @@
 }
 
 .style-17 {
-    padding: 0px 80px;
+    padding: 0px 0px;
     max-width: 1346px;
     position: absolute;
     z-index: 9;
@@ -2538,7 +2538,7 @@ font-size: 15px;
 }
 
 .style-155 {
-    padding: 0px 80px;
+    padding: 0px 23px;
     max-width: 1346px;
     position: relative;
     box-sizing: border-box;
@@ -27091,7 +27091,7 @@ text-align: center;
     width: 1243px;
     clear: both;
     box-sizing: border-box;
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
@@ -27139,7 +27139,7 @@ text-align: center;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    z-index: 999; /* Đảm bảo banner hiển thị trên cùng */
+    z-index: 0; /* Đảm bảo banner hiển thị trên cùng */
 }
 
 .style-2459 {
@@ -27239,7 +27239,7 @@ text-align: center;
 }
 
 .style-2468 {
-    padding: 0px 60px;
+    padding: 0px 0px;
     max-width: 1346px;
     display: flex;
     flex-wrap: wrap;
@@ -29486,7 +29486,7 @@ text-align: center;
 }
 
 .style-2669 {
-    padding: 0px 80px;
+    padding: 0px 15px;
     max-width: 1346px;
     margin-top: 8px;
     box-sizing: border-box;
@@ -29502,11 +29502,9 @@ text-align: center;
 .style-2670 {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
     width: initial;
     box-sizing: border-box;
-    margin: 0px -15px;
+    margin: 0px 0px;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
@@ -77531,7 +77529,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 0 0 0;
+    margin: 0px auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -108446,7 +108444,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 0 0 0;
+    margin: 0px auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
