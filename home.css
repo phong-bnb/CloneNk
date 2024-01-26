@@ -366,7 +366,7 @@
     align-items: center;
     font-size: 12px;
     box-sizing: border-box;
-    padding: 0px;
+    padding: 0px 50px 0px 0px;
     border: 0px none rgb(0, 0, 0);
     vertical-align: baseline;
 }
@@ -397,6 +397,7 @@
 .style-33 {
     box-sizing: border-box;
     margin: 0px;
+    width: 100px;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 12px / 16px Roboto, sans-serif;
@@ -2008,8 +2009,8 @@
 }
 .search{
 padding-top: 10px;
-padding-left: 20px;
 font-size: 15px;
+padding-right: 5px;
 }
 
 
@@ -2017,7 +2018,7 @@ font-size: 15px;
 .style-116 {
     height: 40px;
     border: 0px none rgb(17, 17, 17);
-    padding: 0px 10px;
+    padding: 0px 100px 0px 10px;
     color: rgb(17, 17, 17);
     font-size: 15px;
     border-radius: 13.5px;
@@ -2153,6 +2154,7 @@ font-size: 15px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    gap:20px;
     margin-bottom: 0px;
     box-sizing: border-box;
     list-style: outside none none;
@@ -2170,7 +2172,7 @@ font-size: 15px;
     margin: 0px 10.0875px;
     display: flex;
     font-size: 12px;
-    padding: 0px;
+    padding: 0px 0px 0px 20px;
     border: 0px none rgb(0, 0, 0);
     vertical-align: baseline;
 }
@@ -2258,7 +2260,7 @@ font-size: 15px;
 .style-133 {
     align-items: normal;
     box-sizing: border-box;
-    width: 25%;
+    width: 80%;
     margin: 0px 10.0875px;
     display: flex;
     font-size: 12px;
@@ -2290,6 +2292,7 @@ font-size: 15px;
     line-height: 15.6px;
     box-sizing: border-box;
     margin: 0px;
+    width: 60px;
     padding: 0px;
     border: 0px none rgb(255, 255, 255);
     vertical-align: baseline;
@@ -2427,6 +2430,8 @@ font-size: 15px;
 .style-146 {
     box-sizing: border-box;
     margin: 0px;
+    width: 100%;
+
     padding: 0px;
     border: 0px none rgb(255, 255, 255);
     font: 13px / 15.6px Roboto, sans-serif;
@@ -2538,7 +2543,7 @@ font-size: 15px;
 }
 
 .style-155 {
-    padding: 0px 80px;
+    padding: 0px 20px;
     max-width: 1346px;
     position: relative;
     box-sizing: border-box;
@@ -27088,7 +27093,7 @@ text-align: center;
 }
 
 .style-2455 {
-    width: 1243px;
+    width: 80%;
     clear: both;
     box-sizing: border-box;
     margin: 20px auto;
@@ -27139,7 +27144,7 @@ text-align: center;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    z-index: 999; /* Đảm bảo banner hiển thị trên cùng */
+    z-index: 0; /* Đảm bảo banner hiển thị trên cùng */
 }
 
 .style-2459 {
@@ -27239,7 +27244,7 @@ text-align: center;
 }
 
 .style-2468 {
-    padding: 0px 60px;
+    padding: 0px 0px;
     max-width: 1346px;
     display: flex;
     flex-wrap: wrap;
@@ -29486,14 +29491,14 @@ text-align: center;
 }
 
 .style-2669 {
-    padding: 0px 80px;
+    padding: 0px 0px;
     max-width: 1346px;
     margin-top: 8px;
     box-sizing: border-box;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 8px 0 0 0;
+    margin: 8px auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -29502,11 +29507,11 @@ text-align: center;
 .style-2670 {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    /* margin-right: -15px;
+    margin-left: -15px; */
     width: initial;
     box-sizing: border-box;
-    margin: 0px -15px;
+    margin: 0px 0;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
@@ -38647,7 +38652,7 @@ text-align: center;
 .style-3369 {
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
     padding: 8px;
-    min-width: 225px;
+    min-width: 218px;
     border-radius: 8px;
     overflow: hidden;
     box-sizing: border-box;
@@ -77531,7 +77536,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 0 0 0;
+    margin: 0px auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -77554,7 +77559,7 @@ text-align: center;
     width: 100%;
     box-sizing: border-box;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -108446,7 +108451,7 @@ text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 0 0 0;
+    margin: 0px auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
