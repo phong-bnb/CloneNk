@@ -42847,6 +42847,7 @@
 }
 
 .style-3187 {
+    width: 1200px;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -42854,7 +42855,7 @@
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .style-3188 {
@@ -43099,7 +43100,7 @@
 .style-3203 {
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
     border-radius: 8px;
-    margin: 8px 0px;
+    margin: 0px 0px;
     box-sizing: border-box;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
@@ -43130,7 +43131,7 @@
 
 .style-3206 {
     box-sizing: border-box;
-    margin: 10px 20px 0px 0px;
+    margin: 10px 20px;
     padding: 3px 0px 0px;
     border: 0px none rgb(63, 63, 63);
     vertical-align: baseline;
@@ -43184,6 +43185,7 @@
     line-height: 13px;
     margin-right: 10px;
     min-height: 20px;
+    width: 150px;
     max-height: 36px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
     height: 34px;
@@ -98618,6 +98620,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .style-3205{
+        padding: 0px;
+        margin: 0px
+    }
+    .style-3209{
+        width: 360px;
+    }
     .style-img2 {
         display: block;
         width: 90px;
@@ -98635,24 +98644,24 @@
 
     .over-flow {
         width: 270px;
-        /* Chiều rộng cố định của container */
         overflow-x: auto;
-        /* Cho phép cuộn ngang khi cần thiết */
         white-space: nowrap;
-        /* Ngăn các phần tử bên trong container xuống dòng */
     }
 
     .over-flow>div {
         max-width: 200px;
-        /* Chiều rộng tối đa của các phần tử con */
     }
-    .style-3187{
-        width: 1200px;
+
+    .style-nsx {
+        width: 360px;
+        overflow-x: auto;
+        white-space: nowrap;
     }
-   .overflow-container{
-    /* width : 390px; */
-    overflow-x: auto;
-    white-space: nowrap;
-   }
-    
+    .style-3248{
+        width: 300px;
+    }
+}
+
+.style-nsx {
+    display: flex;
 }
