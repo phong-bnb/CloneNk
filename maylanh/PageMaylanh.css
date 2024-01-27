@@ -19,7 +19,7 @@
 .style-2 {
     display: none;
     visibility: hidden;
-    box-sizing:border-box;
+    box-sizing: border-box;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -183,9 +183,11 @@
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
 }
-.style-map{
+
+.style-map {
     display: flex;
 }
+
 .style-17 {
     padding: 0px 0px;
     max-width: 1346px;
@@ -201,7 +203,7 @@
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
-    
+
 }
 
 .style-18 {
@@ -227,8 +229,8 @@
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
-    
-    
+
+
 }
 
 .style-20 {
@@ -249,8 +251,8 @@
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
-    
-    
+
+
 }
 
 .style-22 {
@@ -263,7 +265,7 @@
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
-    
+
 }
 
 .style-23 {
@@ -299,14 +301,16 @@
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
 }
-.search{
+
+.search {
     position: absolute;
-    top:2px;
-    left:215px;
-padding-top: 10px;
-padding-left: 20px;
-font-size: 15px;
+    top: 2px;
+    left: 215px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
 }
+
 .style-26 {
     width: 100%;
     box-sizing: border-box;
@@ -2007,13 +2011,14 @@ font-size: 15px;
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
 }
-.search{
+
+.search {
     position: absolute;
     top: 2px;
-    left:212px;
-padding-top: 10px;
-padding-left: 20px;
-font-size: 15px;
+    left: 212px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
 }
 
 .style-115 {
@@ -4710,9 +4715,11 @@ font-size: 15px;
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
 }
-.style-map{
+
+.style-map {
     display: flex;
 }
+
 .style-320 {
     color: rgb(74, 74, 74);
     font-size: 13px;
@@ -40142,6 +40149,7 @@ font-size: 15px;
 }
 
 .style-2998 {
+    display: flex;
     padding: 10px;
     width: 1215px;
     box-sizing: border-box;
@@ -68946,7 +68954,8 @@ font-size: 15px;
     font: 16px / 16px Roboto;
     vertical-align: baseline;
 }
-.style-custom1 { 
+
+.style-custom1 {
     width: 20%;
     z-index: 0;
     position: relative;
@@ -88302,6 +88311,7 @@ font-size: 15px;
     font: 16px / 16px Roboto;
     vertical-align: baseline;
 }
+
 .style-custom {
     transform: translate3d(0px, 0px, 0px);
     position: relative;
@@ -88374,29 +88384,32 @@ font-size: 15px;
     font: 16px / 16px Roboto;
     vertical-align: baseline;
 }
+
 .style-59724 {
-       background: #fff;
+    background: #fff;
     transition: .3s;
     padding: 0.5em;
     min-width: 225px;
     border-radius: 0.5em;
     overflow: hidden;
     box-sizing: border-box;
-    box-shadow: 0 1px 2px 0 rgba(60,64,67,.10196078431372549), 0 2px 6px 2px rgba(60,64,67,.14901960784313725);
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .10196078431372549), 0 2px 6px 2px rgba(60, 64, 67, .14901960784313725);
     max-width: 234px;
 }
+
 .nk-recent-title {
     margin: 0;
     color: #fff;
-    background: linear-gradient(0deg,#bb0015,#e7001a 100%,#d70018 0,#d70018 0,#fff 0);
+    background: linear-gradient(0deg, #bb0015, #e7001a 100%, #d70018 0, #d70018 0, #fff 0);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-transform: uppercase;
     font-weight: 700;
 }
+
 .header-block {
     height: 50px;
-    text-align: center!important;
+    text-align: center !important;
     font-size: 2.3em;
     display: flex;
     align-items: center;
@@ -88404,7 +88417,7 @@ font-size: 15px;
     font-weight: 700;
     position: relative;
     background-size: cover;
-    background: linear-gradient(0deg,#bb0015,#e7001a 100%,#d70018 0,#d70018 0,#fff 0);
+    background: linear-gradient(0deg, #bb0015, #e7001a 100%, #d70018 0, #d70018 0, #fff 0);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     -webkit-touch-callout: none;
@@ -88414,13 +88427,14 @@ font-size: 15px;
     -ms-user-select: none;
     user-select: none;
 }
+
 .header-block-span {
     margin: 15px 0;
     text-transform: uppercase;
     color: #fff;
-    font-family: Signika,sans-serif;
+    font-family: Signika, sans-serif;
     filter: drop-shadow(0 3px 0 var(--primaryColor));
-    text-shadow: 3px 0 var(--primaryColor),-2px 0 var(--primaryColor),0 2px var(--primaryColor),0 -2px var(--primaryColor),-2px -2px var(--primaryColor),3px 2px var(--primaryColor),-2px 2px var(--primaryColor),3px -2px var(--primaryColor);
+    text-shadow: 3px 0 var(--primaryColor), -2px 0 var(--primaryColor), 0 2px var(--primaryColor), 0 -2px var(--primaryColor), -2px -2px var(--primaryColor), 3px 2px var(--primaryColor), -2px 2px var(--primaryColor), 3px -2px var(--primaryColor);
 }
 
 .style-5973 {
@@ -93336,9 +93350,11 @@ font-size: 15px;
     border: 0px none rgb(255, 255, 255);
     vertical-align: baseline;
 }
-.custom{
+
+.custom {
     display: flex;
 }
+
 .style-6254 {
     box-sizing: border-box;
     margin: 0px;
@@ -98599,4 +98615,44 @@ font-size: 15px;
     box-sizing: border-box;
     margin: 0px;
     vertical-align: baseline;
+}
+
+@media only screen and (max-width: 600px) {
+    .style-img2 {
+        display: block;
+        width: 90px;
+        height: 40px;
+        box-sizing: border-box;
+        margin: 0px;
+        border: 0px none rgb(0, 0, 238);
+        font: 16px / 16px Roboto, sans-serif;
+        content: url('../anhmobie/lgmobie.png');
+    }
+
+    .style-3187 {
+        display: block;
+    }
+
+    .over-flow {
+        width: 270px;
+        /* Chiều rộng cố định của container */
+        overflow-x: auto;
+        /* Cho phép cuộn ngang khi cần thiết */
+        white-space: nowrap;
+        /* Ngăn các phần tử bên trong container xuống dòng */
+    }
+
+    .over-flow>div {
+        max-width: 200px;
+        /* Chiều rộng tối đa của các phần tử con */
+    }
+    .style-3187{
+        width: 1200px;
+    }
+   .overflow-container{
+    /* width : 390px; */
+    overflow-x: auto;
+    white-space: nowrap;
+   }
+    
 }
