@@ -360,6 +360,53 @@
     border: 0px none rgb(0, 0, 0);
     vertical-align: baseline;
 }
+.style-c5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 32px;
+    align-items: center;
+    min-height: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px none rgb(0, 0, 0);
+    font: 16px / 16px Roboto, sans-serif;
+    vertical-align: baseline;
+}
+
+.style-c6 {
+    width: 10%;
+    display: block;
+    color: rgb(63, 63, 63);
+    padding-bottom: 24px;
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;
+    text-align: -webkit-center;
+    text-decoration: none solid rgb(63, 63, 63);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px 0px 24px;
+    border: 0px none rgb(63, 63, 63);
+    font: 16px / 16px Roboto, sans-serif;
+    vertical-align: baseline;
+}
+
+.style-c7 {
+    width: 6em;
+    height: 96px;
+    background: rgb(241, 241, 241) none repeat scroll 0% 0% / auto padding-box border-box;
+    padding: 19.2px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px none rgb(63, 63, 63);
+    font: 16px / 16px Roboto, sans-serif;
+    vertical-align: baseline;
+}
 
 .style-32 {
     speak: none;
