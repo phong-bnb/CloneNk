@@ -1,6 +1,7 @@
 .style-0 {
     cursor: auto;
     min-width: 1346px;
+    width: 100%;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     background: rgb(245, 246, 248) none repeat scroll 0% 0% / auto padding-box border-box;
@@ -10,6 +11,7 @@
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     vertical-align: baseline;
+    /* overflow-x: hidden ; */
 }
 
 .style-1 {
@@ -19,7 +21,7 @@
 .style-2 {
     display: none;
     visibility: hidden;
-    box-sizing:border-box;
+    box-sizing: border-box;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -158,6 +160,8 @@
     vertical-align: baseline;
     background-color: #fe0000;
 
+    background-color: #fe0000;
+
 }
 
 .style-15 {
@@ -182,7 +186,12 @@
     vertical-align: baseline;
 }
 
+.style-map {
+    display: flex;
+}
+
 .style-17 {
+    padding: 0px 0px;
     max-width: 1346px;
     position: absolute;
     z-index: 9;
@@ -196,7 +205,7 @@
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
-    
+
 }
 
 .style-18 {
@@ -222,7 +231,8 @@
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
-    
+
+
 }
 
 .style-20 {
@@ -243,7 +253,8 @@
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
-    
+
+
 }
 
 .style-22 {
@@ -256,6 +267,7 @@
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
+
 }
 
 .style-23 {
@@ -290,6 +302,15 @@
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
+}
+
+.search {
+    position: absolute;
+    top: 2px;
+    left: 215px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
 }
 
 .style-26 {
@@ -2039,13 +2060,14 @@
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
 }
-.search{
+
+.search {
     position: absolute;
     top: 2px;
-    left:212px;
-padding-top: 10px;
-padding-left: 20px;
-font-size: 15px;
+    left: 212px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
 }
 
 .style-115 {
@@ -2614,11 +2636,9 @@ font-size: 15px;
     position: relative;
     box-sizing: border-box;
     width: 100%;
-    padding-right: 80px;
-    padding-left: 80px;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 278.5px;
+    margin: 0px auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -4744,9 +4764,11 @@ font-size: 15px;
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
 }
-.style-map{
+
+.style-map {
     display: flex;
 }
+
 .style-320 {
     color: rgb(74, 74, 74);
     font-size: 13px;
@@ -32153,9 +32175,10 @@ font-size: 15px;
 }
 
 .style-2455 {
+    width: 1217px;
     clear: both;
     box-sizing: border-box;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
@@ -32182,16 +32205,14 @@ font-size: 15px;
 }
 
 .style-2458 {
-    padding: 0px 80px;
+    padding: 0px 16px;
     max-width: 1346px;
     margin-bottom: 16px;
     box-sizing: border-box;
     width: 100%;
-    padding-right: 80px;
-    padding-left: 80px;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 278.5px 16px;
+    margin: 0px 0 0 0;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -34198,15 +34219,13 @@ font-size: 15px;
 }
 
 .style-2590 {
-    padding: 0px 80px;
+    padding: 0px 0px;
     max-width: 1346px;
     box-sizing: border-box;
     width: 100%;
-    padding-right: 80px;
-    padding-left: 80px;
     margin-right: auto;
     margin-left: auto;
-    margin: 0px 278.5px;
+    margin: 0px auto;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -34259,8 +34278,8 @@ font-size: 15px;
 .style-2595 {
     clear: both;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 20px;
+    padding: 20px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -40116,16 +40135,12 @@ font-size: 15px;
 }
 
 .style-2991 {
-    padding: 0px 80px;
-    max-width: 1346px;
+    padding: 0px 16px;
+    /* max-width: 1346px; */
     padding-top: 0px;
     box-sizing: border-box;
     width: 100%;
-    padding-right: 80px;
-    padding-left: 80px;
-    margin-right: auto;
-    margin-left: auto;
-    margin: 0px 278.5px;
+    margin: 0px 6px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -40183,6 +40198,7 @@ font-size: 15px;
 }
 
 .style-2998 {
+    display: flex;
     padding: 10px;
     width: 1215px;
     box-sizing: border-box;
@@ -42880,6 +42896,7 @@ font-size: 15px;
 }
 
 .style-3187 {
+    width: 1200px;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -42887,7 +42904,7 @@ font-size: 15px;
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .style-3188 {
@@ -43132,7 +43149,7 @@ font-size: 15px;
 .style-3203 {
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
     border-radius: 8px;
-    margin: 8px 0px;
+    margin: 0px 0px;
     box-sizing: border-box;
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
@@ -43163,7 +43180,7 @@ font-size: 15px;
 
 .style-3206 {
     box-sizing: border-box;
-    margin: 10px 20px 0px 0px;
+    margin: 10px 20px;
     padding: 3px 0px 0px;
     border: 0px none rgb(63, 63, 63);
     vertical-align: baseline;
@@ -43192,6 +43209,7 @@ font-size: 15px;
 }
 
 .style-3209 {
+    width: 1000px;
     box-sizing: border-box;
     margin: 3px 0px 15px;
     padding: 0px;
@@ -43217,6 +43235,7 @@ font-size: 15px;
     line-height: 13px;
     margin-right: 10px;
     min-height: 20px;
+    width: 150px;
     max-height: 36px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
     height: 34px;
@@ -43479,6 +43498,7 @@ font-size: 15px;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    width: 370px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -43568,7 +43588,7 @@ font-size: 15px;
 }
 
 .style-3255 {
-    width: 49%;
+    width: 100%;
     font-size: 11.2px;
     line-height: 17.92px;
     border-radius: 5.6px;
@@ -44557,7 +44577,7 @@ font-size: 15px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
     transition: all 0.3s ease 0s;
     padding: 8px;
-    min-width: 225px;
+    /* min-width: 225px; */
     border-radius: 8px;
     overflow: hidden;
     box-sizing: border-box;
@@ -68988,6 +69008,24 @@ font-size: 15px;
     vertical-align: baseline;
 }
 
+.style-custom1 {
+    width: 20%;
+    z-index: 0;
+    position: relative;
+    padding: 8px;
+    max-width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    margin: 5 0 5 15px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0;
+    border-radius: 5px;
+    height: 398.188px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s, border-color 0s ease 0s;
+    box-sizing: border-box;
+    font: 16px/16px Roboto;
+    vertical-align: baseline;
+}
+
 .style-4882 {
     border-style: none;
     cursor: pointer;
@@ -88327,6 +88365,25 @@ font-size: 15px;
     vertical-align: baseline;
 }
 
+.style-custom {
+    transform: translate3d(0px, 0px, 0px);
+    position: relative;
+    width: 100%;
+    /* height: 303.188px; */
+    z-index: 1;
+    display: flex;
+    transition-property: transform, -webkit-transform;
+    box-sizing: content-box;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid rgb(0, 0, 0);
+    font: 16px / 16px Roboto;
+    vertical-align: baseline;
+}
+
 .style-5971 {
     width: 224.75px;
     margin-right: 10px;
@@ -88379,6 +88436,58 @@ font-size: 15px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto;
     vertical-align: baseline;
+}
+
+.style-59724 {
+    background: #fff;
+    transition: .3s;
+    padding: 0.5em;
+    min-width: 225px;
+    border-radius: 0.5em;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .10196078431372549), 0 2px 6px 2px rgba(60, 64, 67, .14901960784313725);
+    max-width: 234px;
+}
+
+.nk-recent-title {
+    margin: 0;
+    color: #fff;
+    background: linear-gradient(0deg, #bb0015, #e7001a 100%, #d70018 0, #d70018 0, #fff 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-block {
+    height: 50px;
+    text-align: center !important;
+    font-size: 2.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: relative;
+    background-size: cover;
+    background: linear-gradient(0deg, #bb0015, #e7001a 100%, #d70018 0, #d70018 0, #fff 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.header-block-span {
+    margin: 15px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Signika, sans-serif;
+    filter: drop-shadow(0 3px 0 var(--primaryColor));
+    text-shadow: 3px 0 var(--primaryColor), -2px 0 var(--primaryColor), 0 2px var(--primaryColor), 0 -2px var(--primaryColor), -2px -2px var(--primaryColor), 3px 2px var(--primaryColor), -2px 2px var(--primaryColor), 3px -2px var(--primaryColor);
 }
 
 .style-5973 {
@@ -93269,6 +93378,7 @@ font-size: 15px;
 }
 
 .style-6252 {
+    width: 100%;
     margin: 0px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -93293,6 +93403,10 @@ font-size: 15px;
     padding: 0px;
     border: 0px none rgb(255, 255, 255);
     vertical-align: baseline;
+}
+
+.custom {
+    display: flex;
 }
 
 .style-6254 {
@@ -97555,15 +97669,11 @@ font-size: 15px;
 }
 
 .style-6709 {
-    padding: 0px 80px;
+    padding: 0px 0px;
     max-width: 1346px;
     box-sizing: border-box;
     width: 100%;
-    padding-right: 80px;
-    padding-left: 80px;
-    margin-right: auto;
-    margin-left: auto;
-    margin: 0px 278.5px;
+    margin: 0px 0;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -98559,4 +98669,93 @@ font-size: 15px;
     box-sizing: border-box;
     margin: 0px;
     vertical-align: baseline;
+}
+
+@media only screen and (max-width: 600px) {
+    .style-3205 {
+        padding: 0px;
+        margin: 0px
+    }
+
+    .style-3209 {
+        overflow-x: auto;
+    }
+
+    .style-img2 {
+        display: block;
+        width: 90px;
+        height: 40px;
+        box-sizing: border-box;
+        margin: 0px;
+        border: 0px none rgb(0, 0, 238);
+        font: 16px / 16px Roboto, sans-serif;
+        content: url('../anhmobie/lgmobie.png');
+    }
+
+    .style-3187 {
+        display: block;
+    }
+
+    .over-flow {
+        width: 270px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .style-custom1 {
+        width: 43%;
+    }
+
+    .style-3249 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 400px));
+        /* Sử dụng 2 cột với mức tối đa 300px */
+        grid-template-rows: auto;
+        gap: 10px;
+        max-width: 100%;
+        grid-template-areas:
+            'item1 item2'
+            'item3 item4'
+            'item5 item6'
+            'item7 item8'
+            'item9 item10'
+            'item11 item12'
+            'item13 item14'
+            'item15 item16'
+            'item17 item18'
+            'item19 item20'
+            'item21 item22'
+            'item23 item24'
+            'item25 item26'
+            'item27 item28'
+            'item29 item30';
+        margin: 0px;
+        box-sizing: border-box;
+        padding: 0px;
+        border: 0px none rgb(0, 0, 0);
+        font: 16px / 16px Roboto, sans-serif;
+        vertical-align: baseline;
+    }
+
+    .header-block {
+        font-size: 1.5em
+    }
+
+    .style-0 {
+        min-width: 360px;
+    }
+
+    .over-flow>div {
+        max-width: 200px;
+    }
+
+    .style-nsx {
+        width: 360px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+.style-nsx {
+    display: flex;
 }
