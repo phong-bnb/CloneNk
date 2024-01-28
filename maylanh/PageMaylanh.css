@@ -1,6 +1,7 @@
 .style-0 {
     cursor: auto;
     min-width: 1346px;
+    width: 100%;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     background: rgb(245, 246, 248) none repeat scroll 0% 0% / auto padding-box border-box;
@@ -10,6 +11,7 @@
     padding: 0px;
     border: 0px none rgb(0, 0, 0);
     vertical-align: baseline;
+    overflow-x: hidden ;
 }
 
 .style-1 {
@@ -34229,8 +34231,8 @@
 .style-2595 {
     clear: both;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 20px;
+    padding: 20px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -43160,6 +43162,7 @@
 }
 
 .style-3209 {
+    width: 1000px;
     box-sizing: border-box;
     margin: 3px 0px 15px;
     padding: 0px;
@@ -43448,6 +43451,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    width: 370px;
     border: 0px none rgb(0, 0, 0);
     font: 16px / 16px Roboto, sans-serif;
     vertical-align: baseline;
@@ -44526,7 +44530,7 @@
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
     transition: all 0.3s ease 0s;
     padding: 8px;
-    min-width: 225px;
+    /* min-width: 225px; */
     border-radius: 8px;
     overflow: hidden;
     box-sizing: border-box;
@@ -93327,6 +93331,7 @@
 }
 
 .style-6252 {
+    width: 100%;
     margin: 0px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -98620,13 +98625,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .style-3205{
+    .style-3205 {
         padding: 0px;
         margin: 0px
     }
-    .style-3209{
-        width: 360px;
+
+    .style-3209 {
+        overflow-x: auto;
     }
+
     .style-img2 {
         display: block;
         width: 90px;
@@ -98648,6 +98655,49 @@
         white-space: nowrap;
     }
 
+    .style-custom1 {
+        width: 43%;
+    }
+
+    .style-3249 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 400px));
+        /* Sử dụng 2 cột với mức tối đa 300px */
+        grid-template-rows: auto;
+        gap: 10px;
+        max-width: 100%;
+        grid-template-areas:
+            'item1 item2'
+            'item3 item4'
+            'item5 item6'
+            'item7 item8'
+            'item9 item10'
+            'item11 item12'
+            'item13 item14'
+            'item15 item16'
+            'item17 item18'
+            'item19 item20'
+            'item21 item22'
+            'item23 item24'
+            'item25 item26'
+            'item27 item28'
+            'item29 item30';
+        margin: 0px;
+        box-sizing: border-box;
+        padding: 0px;
+        border: 0px none rgb(0, 0, 0);
+        font: 16px / 16px Roboto, sans-serif;
+        vertical-align: baseline;
+    }
+
+    .header-block {
+        font-size: 1.5em
+    }
+
+    .style-0 {
+        min-width: 360px;
+    }
+
     .over-flow>div {
         max-width: 200px;
     }
@@ -98656,9 +98706,6 @@
         width: 360px;
         overflow-x: auto;
         white-space: nowrap;
-    }
-    .style-3248{
-        width: 300px;
     }
 }
 

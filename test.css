@@ -366,9 +366,9 @@
     }
 
     .big-banner {
-        width: 400px;
-        height: 628px;
-        padding: 0px;
+        width: 390px;
+        height: auto;
+        padding: 10px 0px;
     }
 
     .content-header {
@@ -400,6 +400,38 @@
         display: none;
     }
 
+    /* .style-4407 {
+        display: none;
+    }
+    .style-4427 {
+        display: none;
+    }
+    .style-4422 {
+        display: none;
+    }
+    .style-4399 {
+        display: none;
+    }
+    .style-4418 {
+        display: none;
+    } */
+    .style-4389 {
+        display: none;
+    }
+
+    .style-5939 {
+        display: none;
+    }
+
+    .header-block-span {
+        font-size: 19px;
+    }
+
+    .style-6251 {
+        display: block;
+    }
+
+
     .style-2455 {
         width: 400px;
         margin: 0;
@@ -408,4 +440,16 @@
     .delivery {
         display: none;
     }
+}
+
+.style-6251 {
+    display: none;
+}
+
+.owl-carousel {
+    padding: 12px;
+}
+
+.owl-carousel-seen {
+    padding: 12px;
 }
